@@ -7,7 +7,7 @@
 
 ### 檔案所需結構樹狀圖
 ```bash
-### 本專案內不提供
+### Repositories內不提供
 ├── 39_Test_Dataset/            # testdata(主辦方提供，未經允許本專案內無附上)
 │   ├── test_data/
 │   └── test_info.csv
@@ -16,7 +16,7 @@
 │   └── train_info.csv
 ├── test_data.csv               # 處理後會產生的測試資料
 ├── train_data.csv              # 處理後的產生的訓練資料
-### 本專案內提供
+### Repositories內提供
 ├── README.md                   # 專案說明文件（本檔案）
 ├── 前分析/
 │   ├── XGBOOST.ipynb           # 前分析使用模型與結果
@@ -56,7 +56,7 @@
 
 ### 競賽預測主程式
 
-1. 執行 **data_arrange.py** 的chunk，將 **39_Training_Dataset/**、**39_Test_Dataset/** 內資料做前處理，會產生**train_data.csv**、**test_data.csv**兩個資料夾為處理後的資料
+1. 執行 **data_arrange.py** ，將 **39_Training_Dataset/**、**39_Test_Dataset/** 內資料做前處理，會產生**train_data.csv**、**test_data.csv**兩個資料夾為處理後的資料
 2. 執行 **DL_model.py** 為預測主程式，包含特徵工程、訓練模型、預測部分
 3. 產生 **submission.csv** 為最終提交預測檔案
 
