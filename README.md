@@ -5,7 +5,18 @@
 ---
 ## 專案說明
 
+### 檔案所需結構樹狀圖
 ```bash
+### 本專案內不提供
+├── 39_Test_Dataset/            # testdata(主辦方提供，未經允許本專案內無附上)
+│   ├── test_data/
+│   └── test_info.csv
+├── 39_Training_Dataset/        # traindata(主辦方提供，未經允許本專案內無附上)
+│   ├── train_data/
+│   └── train_info.csv
+├── test_data.csv               # 處理後會產生的測試資料
+├── train_data.csv              # 處理後的產生的訓練資料
+### 本專案內提供
 ├── README.md                   # 專案說明文件（本檔案）
 ├── 前分析/
 │   ├── XGBOOST.ipynb           # 前分析使用模型與結果
@@ -15,14 +26,6 @@
 │   ├── 前分析特徵處理.ipynb     # 前分析前處理程式
 │   ├── 孫穎莎(RSH)_data_file/  # 前分析使用自製資料集
 │   └── 資訊統計.ipynb          # 前分析敘述統計
-├── 39_Test_Dataset/            # testdata
-│   ├── test_data/
-│   └── test_info.csv
-├── 39_Training_Dataset/        # traindata
-│   ├── train_data/
-│   └── train_info.csv
-├── test_data.csv               # 處理後的測試資料
-├── train_data.csv              # 處理後的訓練資料
 ├── data_arrange.py             # 資料前處理程式（包含整合與格式整理）
 ├── DL_model.py                 # 主模型訓練與預測
 ├── submission.csv              # 最終提交預測檔案
