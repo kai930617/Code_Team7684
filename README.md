@@ -56,8 +56,9 @@
 
 ### 競賽預測主程式
 
-1. 執行 **data_arrange.py** ，將 **39_Training_Dataset/**、**39_Test_Dataset/** 內資料做前處理，會產生**train_data.csv**、**test_data.csv**兩個資料夾為處理後的資料
-2. 執行 **DL_model.py** 為預測主程式，包含特徵工程、訓練模型、預測部分
-3. 產生 **submission.csv** 為最終提交預測檔案
+1. 確保有原始數據資料夾 **39_Training_Dataset/**、**39_Test_Dataset/** ，本專案內無附上
+2. 執行 **data_arrange.py** ，將 **39_Training_Dataset/**、**39_Test_Dataset/** 內資料做前處理，會產生**train_data.csv**、**test_data.csv**兩個資料夾為處理後的資料
+3. 執行 **DL_model.py** 為預測主程式，包含特徵工程、訓練模型、預測部分
+4. 產生 **submission.csv** 為最終提交預測檔案
 
 
