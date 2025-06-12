@@ -41,6 +41,7 @@
 | **Scikit-learn** | ≥ 1.0        |
 | **SciPy**        | ≥ 1.7        |
 | **XGBoost**      | ≥ 1.5        |
+| **Xmatplotlib**  | ≥ 3.2        |
 
 ## 程式碼執行流程
 
