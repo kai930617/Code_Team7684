@@ -46,7 +46,7 @@
 
 ### 前分析(不影響預測，僅做競賽前分析)
 
-1. 依序執行 **前分析特徵處理.ipynb** 的chunk，將 **孫穎莎(RSH)_data_file/** 內資料集依序做處理會產生 **merge_data/** 、**all_player_data/** 及 **merge_data/** (最終存放前處理的資料夾)
+1. 依序執行 **前分析特徵處理.ipynb** 的chunk，將 **孫穎莎(RSH)_data_file/** 內資料集依序做處理會依序將結果存放到 **merge_data/** 、**all_player_data/** 及 **merge_data/** (最終存放前處理的資料夾)
 3. 執行**資訊統計.ipynb** 僅是查看前處理後的敘述統計(可跳過)
 4. 依序執行 **XGBOOST.ipynb** 的chunk，訓練前分析使用之模型及產生分析圖表  
 
