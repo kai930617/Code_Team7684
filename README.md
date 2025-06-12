@@ -14,8 +14,8 @@
 ├── 39_Training_Dataset/        # traindata(主辦方提供，未經允許本專案內無附上)
 │   ├── train_data/
 │   └── train_info.csv
-├── test_data.csv               # 處理後會產生的測試資料
-├── train_data.csv              # 處理後的產生的訓練資料
+├── test_data.csv               # 處理後會產生的測試資料(根據下方競賽預測主程式流程會產生)
+├── train_data.csv              # 處理後的產生的訓練資料(根據下方競賽預測主程式流程會產生)
 ### Repositories內提供
 ├── README.md                   # 專案說明文件（本檔案）
 ├── 前分析/
