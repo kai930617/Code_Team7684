@@ -8,10 +8,10 @@
 ### 檔案所需結構樹狀圖
 ```bash
 ### Repositories內不提供
-├── 39_Test_Dataset/            # testdata(主辦方提供，未經允許本專案內無附上)
+├── 39_Test_Dataset/            # testdata(主辦方提供，本專案內無附上)
 │   ├── test_data/
 │   └── test_info.csv
-├── 39_Training_Dataset/        # traindata(主辦方提供，未經允許本專案內無附上)
+├── 39_Training_Dataset/        # traindata(主辦方提供，本專案內無附上)
 │   ├── train_data/
 │   └── train_info.csv
 ├── test_data.csv               # 處理後會產生的測試資料(根據下方競賽預測主程式流程會產生)
